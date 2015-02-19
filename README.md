@@ -5,10 +5,15 @@ Maybe a simple light, fan or lava-lamp.
 
 Requirements
 1. You need hardware: http://www.gembird.nl/item.aspx?id=3234&lang=de
-2. Linux
+
+2. Linux 
+
 3. Depending if you using node or python - node or python
+
 3. libusb
+
 4. additions to /etc/udev/rules.d/
+
 
 Installation
 
