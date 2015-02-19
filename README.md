@@ -23,7 +23,7 @@ Install node http://nodejs.org/ <br>
 Install npm https://www.npmjs.com/ <br>
 Debian/Ubuntu users can install using apt <br>
 
-* 3.0 libusb-1.0-0 installieren (apt-get install libusb-1.0-0) <br>
+* libusb-1.0-0 installieren (apt-get install libusb-1.0-0) <br>
 * npm install usb <br>
 * npm install request
 * Test: 'node test.js'  <br>
