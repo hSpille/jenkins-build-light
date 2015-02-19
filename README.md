@@ -12,23 +12,23 @@ Additions to /etc/udev/rules.d/ <br>
 
 
 Installation<br>
-1. Udev <br>
+* Udev <br>
 If you not plan to run this as root, you need the following new udev entry: 
 Add a new rule to '/etc/udev/rules.d/' Call the file whatever you want - add the following:<br>
-SUBSYSTEM=="usb", ATTR{idVendor}=="04b4", ATTR{idProduct}=="fd13", MODE="0666", GROUP="myusbgroup" <br>
+<pre> SUBSYSTEM=="usb", ATTR{idVendor}=="04b4", ATTR{idProduct}=="fd13", MODE="0666", GROUP="myusbgroup" </pre><br> 
 -->Add your user to the group. Relogin. Done.<br>
 
-2. Node && npm <br>
+* Node && npm <br>
 Install node http://nodejs.org/ <br>
 Install npm https://www.npmjs.com/ <br>
 Debian/Ubuntu users can install using apt <br>
 
-3.0 libusb-1.0-0 installieren (apt-get install libusb-1.0-0) <br>
-3.1 npm install usb <br>
-3.2 npm install request
-4. Test: 'node test.js'  <br>
+* 3.0 libusb-1.0-0 installieren (apt-get install libusb-1.0-0) <br>
+* npm install usb <br>
+* npm install request
+* Test: 'node test.js'  <br>
 This will switch your power plug. If so - all you need to do is now change your server url in the file you plan to use and your done<br>
-5. Run: 'node satori.js &' <br>
+* Run: 'node satori.js &' <br>
 
 
 FILES:
