@@ -3,16 +3,12 @@
 Jenkins-build-light provides code snippets for monitoring your jenkins build server with whatever you can plug in to a power plug.
 Maybe a simple light, fan or lava-lamp. 
 
-Requirements
-1. You need hardware: http://www.gembird.nl/item.aspx?id=3234&lang=de
-
-2. Linux 
-
-3. Depending if you using node or python - node or python
-
-3. libusb
-
-4. additions to /etc/udev/rules.d/
+Requirements<br>
+You need hardware: http://www.gembird.nl/item.aspx?id=3234&lang=de <br>
+Linux <br>
+Depending if you using node or python - node or python <br>
+libusb <br>
+Additions to /etc/udev/rules.d/ <br>
 
 
 Installation<br>
