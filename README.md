@@ -28,9 +28,10 @@ Install node http://nodejs.org/
 Install npm https://www.npmjs.com/
 Debian/Ubuntu users can install using apt
 
-3.0 libusb-1.0-0 installieren (apt-get install libusb-1.0-0)
+3.0 libusb-1.0-0 installieren (apt-get install libusb-1.0-0) 
 3.1 npm install usb
 3.2 npm install request
+
 
 4. Test: 'node test.js' 
 This will switch your power plug. If so - all you need to do is now change your server url in the file you plan to use and your done
