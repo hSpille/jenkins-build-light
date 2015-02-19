@@ -15,28 +15,25 @@ Requirements
 4. additions to /etc/udev/rules.d/
 
 
-Installation
+Installation<br>
+1. Udev <br>
+If you not plan to run this as root, you need the following new udev entry: 
+Add a new rule to '/etc/udev/rules.d/' Call the file whatever you want - add the following:<br>
+SUBSYSTEM=="usb", ATTR{idVendor}=="04b4", ATTR{idProduct}=="fd13", MODE="0666", GROUP="myusbgroup" <br>
+-->Add your user to the group. Relogin. Done.<br>
 
-1. Udev 
-If you not plan to run this as root, you need the following new udev entry:
-Add a new rule to '/etc/udev/rules.d/' Call the file whatever you want - add the following:
-SUBSYSTEM=="usb", ATTR{idVendor}=="04b4", ATTR{idProduct}=="fd13", MODE="0666", GROUP="myusbgroup"
--->Add your user to the group. Relogin. Done.
+2. Node && npm <br>
+Install node http://nodejs.org/ <br>
+Install npm https://www.npmjs.com/ <br>
+Debian/Ubuntu users can install using apt <br>
 
-2. Node && npm
-Install node http://nodejs.org/
-Install npm https://www.npmjs.com/
-Debian/Ubuntu users can install using apt
-
-3.0 libusb-1.0-0 installieren (apt-get install libusb-1.0-0) 
-3.1 npm install usb
+3.0 libusb-1.0-0 installieren (apt-get install libusb-1.0-0) <br>
+3.1 npm install usb <br>
 3.2 npm install request
+4. Test: 'node test.js'  <br>
+This will switch your power plug. If so - all you need to do is now change your server url in the file you plan to use and your done<br>
+5. Run: 'node satori.js &' <br>
 
-
-4. Test: 'node test.js' 
-This will switch your power plug. If so - all you need to do is now change your server url in the file you plan to use and your done
-
-5. Run: 'node satori.js &' 
 
 FILES:
 - leiste.py
