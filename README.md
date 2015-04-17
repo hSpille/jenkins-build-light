@@ -5,6 +5,8 @@ Maybe a simple light, fan or lava-lamp.
 
 Requirements<br>
 You need hardware: http://www.gembird.nl/item.aspx?id=3234&lang=de <br>
+This is the Gembird sispmctl or SiS-PM (Silver Shield PM) - there are different Versions available wich works all the same way. 
+This one uses the USB Verison (Lan coming later)
 Linux <br>
 Depending if you using node or python - node or python <br>
 libusb <br>
